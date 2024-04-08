@@ -1,0 +1,13 @@
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.stars{
+    animation: opacity 1s ease-in-out forwards 1s;
+    opacity: 0;
+}
